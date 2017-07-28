@@ -1,6 +1,6 @@
 import { assert } from "chai";
 
-import { FingerTree, prepend, append, toArray, size, get, nil, foldl, concat } from "../src/finger";
+import { FingerTree, prepend, append, toArray, size, get, nil, foldl, concat } from "../src-mocha/finger";
 
 function randomNumber(max: number): number {
   return Math.floor(Math.random() * max);

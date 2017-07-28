@@ -2,7 +2,7 @@ import { assert } from "chai";
 
 import {
   length, range, concat, empty, List, list, map, nth, foldl, last, pair
-} from '../src/index';
+} from '../src-mocha/index';
 
 function numberArray(start: number, end: number): number[] {
   let array = [];
